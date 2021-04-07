@@ -37,7 +37,6 @@ blockquote, q {
 *{
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
 }
 /*General Stles*/
 html{
@@ -46,11 +45,17 @@ html{
 body{
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family: ;
+    font-family: 'Roboto Mono', monospace;
 }
 h1 {
-    font-family: ;
     font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+section{
+    padding: 4% 0;
+}
+nav {
+    padding: 2% 0;
 }
 nav a{
     display: inline-block;
@@ -63,18 +68,21 @@ nav a{
 }
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .blue{
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 14%;
 }
 .yellow{
     background-color: #FFCD69;
     margin-right: 10%;
 }
+.top{
+    position: relative;
+}
 .top div{
-    display: ;
+    display: inline-block;
     width: 45%;
     margin: 0 2%;
     text-align: center;
@@ -88,5 +96,34 @@ nav a{
     line-height: 2;
     position: absolute;
     bottom: 20%;
+    left: 38%;
 }
-/*header section styles*/
+.middle{
+    background: #DDB9A3;
+    width: 84%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.footer-image{
+    background-image: 
+}
+.fire{
+    width: 10%;
+    margin: 0 auto;
+}
+.bottom p{
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    margin-bottom: 4%;
+}
+.car{
+    width: 10%;
+    margin: 0 auto;
+}
+section.footer-image{
+    background-image: url("/assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
